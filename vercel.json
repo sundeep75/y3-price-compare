@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "GooglestyleMerchant.html",
-      "use": "@vercel/static"
-    }
-  ],
+  "buildCommand": "echo 'No build required'",
+  "outputDirectory": ".",
+  "installCommand": "echo 'No install required'",
   "routes": [
     {
       "src": "/",
