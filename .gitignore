@@ -55,10 +55,13 @@ tmp/
 *.tmp
 
 # Large data files
-*.json
 *.csv
 *.xlsx
 *.pdf
+
+# Allow specific JSON files for deployment
+!package.json
+!vercel.json
 
 # Images (optional - uncomment if you don't want to include images)
 # *.jpg

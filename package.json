@@ -1,0 +1,25 @@
+{
+  "name": "y3-price-compare",
+  "version": "1.0.0",
+  "description": "Y3 Price Compare - Product comparison tool with HORECA integration",
+  "main": "GooglestyleMerchant.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build step required for static HTML'",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "price-comparison",
+    "ecommerce",
+    "shopping",
+    "horeca",
+    "lotus",
+    "shopee",
+    "lazada"
+  ],
+  "author": "Y3 Price Compare",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
